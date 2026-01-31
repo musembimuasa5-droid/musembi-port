@@ -1,0 +1,51 @@
+/* =============== HEADER STYLES =============== */
+
+
+.main-header {
+    background: grey;
+    color: #fff;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.circle-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #1e3a8a;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+}
+
+.logo {
+    margin: 0;
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-transform:uppercase ;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.navbar a:hover {
+    color: #f0c040;
+    text-transform: uppercase;
+
+    .main-header .navbar a {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 500;
+    padding: 8px 12px;
+    transition: color 0.3s;
+}
+
+.main-header .navbar a:hover {
+    color: #f0c040; /* Highlight on hover */
+}
+
+}
